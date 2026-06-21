@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="menu-toggle" id="menu-toggle">
+        ☰
+        </div>
+        <nav id="nav-menu">
+            <ul>
+                <img src="src/k-logo1(1).png" class="logo">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="portofolio.html">Portfolio</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+            <button type="button"><a href="login/index-login.html" class="b-login">Login</a></button>
+            <button type="button"><a href="registrasi/index-regis.html" class="b-login">Registrasi</a></button>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container-2">
+            <h1>Keep in Touch</h1>
+            <br><br>
+            <div class="bungkus-form">
+                <form>
+        
+                    <input
+                        type="text"
+                        name="name"
+                        placeholder="Nama"
+                        id="name"
+                        required
+                    >
+                    <br><br>
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="Email"
+                        id="email"
+                        required
+                    >
+                    <br><br>
+                    <textarea
+                        name="message"
+                        placeholder="Pesan"
+                        id="message"
+                        required
+                    ></textarea>
+                    <br><br>
+                    <button type="submit">
+                        Confirm
+                    </button>
+                </form>
+            </div>
+        </div>
+    </main>
+       
+    <footer>
+        &copy Copyrights by Kawal Manten Wedding Organizer
+    </footer>
+    <script>
+        const menuToggle = document.getElementById("menu-toggle");
+        const navMenu = document.getElementById("nav-menu");
+
+        menuToggle.addEventListener("click", function () {
+            navMenu.classList.toggle("active");
+        });
+    </script>
+</body>
+
+</html>

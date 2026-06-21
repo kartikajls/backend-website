@@ -1,0 +1,493 @@
+/*import font dari google font*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-width: 100%;
+    max-height: 100%;
+}
+/*membuat header dan navigasi*/
+header {
+    margin: 0px;
+    background-color: #A89C8A;
+    height: 30px;
+}
+
+.menu-toggle{
+    display: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+nav {
+    display: flex;
+}
+
+.logo {
+    width: 20px;
+    max-width: 100%;
+    height: 17px;
+    max-height: 100%;
+    padding-top: 1px;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+button {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.b-login {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+/* end */
+
+/*membuat main dari website*/
+main {
+    padding-top: 10px;
+    height: 100%;
+ 
+    margin-bottom: 10px;
+}
+/* end of main*/
+/*slide foto / konten 1*/
+.container{
+    height: 100%;
+    max-height: 100%;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.slider {
+    height: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.slide1 {
+    padding-left: 5px;
+    width: 380px;
+    height: 100%;
+    max-width: auto;
+}
+
+.slide2 {
+    max-width: auto;
+    padding-left: 5px;
+}
+/* end of slide / konten 1*/
+
+/*membuat konten 2*/
+.content-1 {
+    height: 100%;
+    max-height: 100%;
+}
+
+.main-text {
+    font-family: "Tangerine";
+    font-size: 60px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text {
+    text-align: center;
+    font-family: "open sans";
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+
+.content-2 {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "open san";
+}
+
+.button-package {
+    border: 1px solid black;
+    width: 90px;
+    height: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.package {
+    font-size: 17px;
+    font-family: "open san";
+    padding-top: 7px;
+    font-weight: bold;
+    color: black;
+}
+
+.button-package:hover {
+    background-color: #f8f8f8;
+}
+/* end of konten 2*/
+
+/* membuat konten 3*/
+.kbox {
+    display: flex;
+    gap: 20px;
+    max-width: 100%;
+    height: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.box {
+    text-align: center;
+    background-color: #f9f9fb;
+    border: 1px solid rgb(248, 248, 248);
+}
+
+.tbox {
+    font-family: "Montserrat";
+    font-style: italic;
+}
+
+.content-3 {
+    width: 500px;
+    margin: 0 auto;
+    height: 100%;
+    max-height: 100%;
+}
+
+.second-text {
+    padding-top: 60px;
+    font-family: "Tangerine";
+    font-size: 40px;
+    text-align: center;
+}
+
+.bungkus-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    margin: 0 auto;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="description"] {
+    max-width: 100%;
+    width: 490px;
+    height: 20px;
+    padding-left: 10px;
+    margin-left: 2px;
+}
+
+textarea {
+    max-width: 100%;
+    width: 500px;
+    height: 200px;
+    margin-left: 2px;
+}
+/* end */
+
+/* membuat isian service*/
+.container-2{
+    height: 100%;
+    max-height: 100%;
+    width: 100%;
+    margin-bottom: 50px;
+}
+h1{
+    font-family: "Tangerine";
+    font-size: 40px;
+    margin-top: 5px;
+    text-align: center;
+}
+.se-1{
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 100%;
+
+}
+h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.s-pict{
+    width: 350px;
+    height: 230px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.s-text{
+    font-family: "open sans";
+}
+
+.kbox1 {
+    display: flex;
+    gap: 20px;
+    max-width: 100%;
+    height: 350px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.kbox2 {
+    display: flex;
+    gap: 20px;
+    max-width: 100%;
+    height: 350px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.box1 {
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid rgb(248, 248, 248);
+}
+.tbox1 {
+    font-family: "Montserrat";
+}
+/* end of isian service*/
+
+/*membuat isi konten portofolio*/
+.p-box1 {
+    display: flex;
+    gap: 5px;
+    max-width: 200%;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.p-box2 {
+    display: flex;
+    gap: 5px;
+    max-width: 200%;
+    margin-left: 180px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.p-box3 {
+    display: flex;
+    gap: 5px;
+    max-width: 200%;
+    margin-left: 180px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+/**untuk landscape*/
+.pbox1 {
+    height: 210px;
+    width: 300px;
+    max-width: 100%;
+}
+.lp-pict{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    object-fit: contain;
+}
+/*end of portofolio*/
+/*membuat isian about us*/
+.container-3{
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+.a-text{
+    text-align: center;
+}
+/*end of about us*/
+
+
+footer {
+    background-color: #A89C8A;
+    text-align: center;
+    padding-top: 5px;
+    height: 25px;
+    font-family: "open san";
+    color: white;
+}
+/*Responsive Website*/
+@media only screen and (min-width: 350px) and (max-width: 768px){
+    .menu-toggle{
+        display: block;
+        font-size: 19px;
+        padding-top: 1px;
+    }
+    nav{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        margin-left: 0px;
+        width: 100%;
+    }
+    nav.active{
+        display: flex;
+    }
+    ul{
+        display: block;
+        background-color: #A89C8A;
+    }
+    a{
+        color: black;
+        text-align: center;
+    }
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+    .slider{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        gap: 5px;
+    }
+    .slide1{
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        padding-left: 0px;
+    }
+    .slide2{
+        max-width: 100%;
+        height: 100%;
+        padding-left: 0px;
+    }
+    .content-1{
+        width: 100%;
+        height: 100%;
+    }
+    .text {
+    text-align: justify;
+    }
+    .content-2{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .main-text{
+        max-width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .kbox{
+        display: flex;
+        flex-wrap: wrap;  
+    }
+    .second-text{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+    }
+    form{
+        max-width: 100%;
+        height: 100%;
+        padding-left: 10px;
+    }
+    input[type="text"], input[type="email"] {
+        width: 300px;
+        height: 100%;
+    }
+    textarea{
+        width: 305px;
+    }
+    .container-2{
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+    .kbox1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px;
+    }
+    .box1{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .kbox2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px;
+    }
+    .box2{
+        width: 100%;
+        height: 100%;
+    }
+    .p-box1{
+        max-width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin:0px;
+        padding-left: 20px;
+    }
+    .p-box2{
+        max-width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin:0px;
+        padding-left: 20px;
+    }
+    .p-box3{
+        display: none;
+    }
+    .container-3{
+        margin: 0px;
+    }
+    h2{
+        text-align: center;
+    }
+    .a-text{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    footer{
+        height: 25px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+}

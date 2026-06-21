@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kawal Manten Wedding Organizer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="menu-toggle" id="menu-toggle">
+        ☰
+        </div>
+        <nav id="nav-menu">
+            <ul>
+                <img src="src/k-logo1(1).png" class="logo">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="portofolio.html">Portfolio</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+            <button type="button"><a href="login.html" class="b-login">Login</a></button>
+            <button type="button"><a href="register.html" class="b-login">Registrasi</a></button>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="slider">
+                <img src="src/slider/1.JPG" class="slide1">
+                <img src="src/slider/2.JPG" class="slide1">
+                <img src="src/slider/3.JPG" class="slide2">
+                <img src="src/slider/6.jpg" class="slide2">
+            </div>
+
+            <div class="content-1">
+                <h2 class="main-text">Our All in one</h2>
+                <p class="text">
+                    Rayakan hari istimewa Anda dengan nuansa hangat dan keindahan khas
+                    Indonesia yang memikat. Kami menghadirkan berbagai paket pernikahan yang dirancang untuk mewujudkan
+                    momen sakral sesuai impian Anda.
+                    Mulai dari Paket Intimate Wedding, pilihan simple namun tetap terlihat mewah dan gen-z banget. Paket
+                    Wedding Luxury dengan sentuhan fasilitas dan dekorasi yang lebih eksklusif memanjakan mata.
+                    hingga Paket Wedding Rumahan yang memberikan pengalaman pernikahan sederhana yang dirancang untuk
+                    menciptakan kesan tak terlupakan.
+                    <br><br>
+                    Baik Anda menginginkan akad dan resepsi yang intim bersama keluarga terdekat maupun perayaan meriah
+                    bersama kerabat dan sahabat.
+                    Kami siap menghadirkan suasana yang hangat, indah, dan penuh makna dengan pelayanan terbaik,
+                    dekorasi yang menawan, serta setiap detail yang dipersiapkan dengan penuh perhatian, biarkan hari
+                    bahagia Anda menjadi kenangan yang akan dikenang sepanjang masa.
+                    Mulailah perjalanan cinta Anda dengan pernikahan yang indah, berkesan, dan penuh kebahagiaan bersama
+                    orang-orang tercinta.
+                </p>
+                <br>
+                <div class="button-package">
+                    <a class="package"
+                        href="https://drive.google.com/file/d/1RZRoUESc6EE8v-DzhqxApzv3ywxH5LW6/view?usp=sharing"
+                        target="_blank">Package</a>
+                </div>
+            </div>
+
+            <div class="content-2">
+                <h2 class="main-text">Our Testimoni</h2>
+            </div>
+            <div class="kbox">
+                <div class="box">
+                    <p class="tbox">
+                        "Pelayanan dari Tim Kawal Manten bener-bener memanjakan keluarga dan tamu.
+                        Pokoknya the best."
+                    </p>
+                </div>
+                <div class="box">
+                    <p class="tbox">
+                        "Diskusi terkait konsep pernikahan sangat nyaman. bisa online maupun offline. PM nya juga fast
+                        respon buat nanggepin chat kita."
+                    </p>
+                </div>
+                <div class="box">
+                    <p class="tbox">
+                        "Pendampingan sebelum hari-h bagus banget. Manten diberi masukan dan bebas menentukan
+                        pilihan warna dan macamnya"
+                    </p>
+                </div>
+                <div class="box">
+                    <p class="tbox">
+                        "Tim dari teman-teman kawal manten baik-baik orangnya dan di hari-h pada kerja semua, gak ada yg
+                        nganggur. jadi makin suka lihatnya"
+                    </p>
+                </div>
+            </div>
+            <div class="content-3">
+                <h2 class="second-text">Rencanakan Pernikahanmu Sekarang !</h2>
+            </div>
+            <div class="bungkus-form">
+                <form>
+                    <label for="name">Nama</label><br>
+                    <input type="text" name="name">
+                    <br><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email">
+                    <br><br>
+                    <label for="description">Description</label> <br>
+                    <textarea type="text" name="description"></textarea>
+                    <br><br>
+                    <button>Confirm</button>
+                </form>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        &copy Copyrights by Kawal Manten Wedding Organizer
+    </footer>
+    <script>
+        const menuToggle = document.getElementById("menu-toggle");
+        const navMenu = document.getElementById("nav-menu");
+
+        menuToggle.addEventListener("click", function () {
+            navMenu.classList.toggle("active");
+        });
+    </script>
+</body>
+
+</html>

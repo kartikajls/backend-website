@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="menu-toggle" id="menu-toggle">
+        ☰
+        </div>
+        <nav id="nav-menu">
+            <ul>
+                <img src="src/k-logo1(1).png" class="logo">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="portofolio.html">Portfolio</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+            <button type="button"><a href="login/index-login.html" class="b-login">Login</a></button>
+            <button type="button"><a href="registrasi/index-regis.html" class="b-login">Registrasi</a></button>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Our Service</h1>
+        <div class="container-2">
+            <div class="kbox1">
+                <div class="box1">
+                    <h3>Perencanaan Pernikahan yang Personal</h3>
+                    <img src="src/services/1.jpg" class="s-pict">
+                    <p class="tbox1">
+                        Kami membantu merancang setiap detail pernikahan sesuai dengan impian dan karakter pasangan. Mulai dari pemilihan tema, konsep acara, hingga susunan rangkaian acara, semuanya disesuaikan agar momen spesial Anda menjadi unik dan berkesan.
+                    </p>
+                </div>
+                <div class="box1">
+                    <h3>Tim Profesional dan Berpengalaman</h3>
+                    <img src="src/services/2.jpg" class="s-pict">
+                    <p class="tbox1">
+                        Didukung oleh tim wedding planner dan wedding coordinator yang berpengalaman, kami memastikan setiap proses persiapan hingga hari pelaksanaan berjalan dengan lancar. Profesionalisme dan perhatian terhadap detail menjadi prioritas utama kami dalam memberikan pelayanan terbaik.
+                    </p>
+                </div>
+                
+            </div>
+            <div class="kbox2">
+                <div class="box1">
+                    <h3>Koordinasi Acara yang Terorganisir</h3>
+                    <img src="src/services/3.jpg" class="s-pict">
+                    <p class="tbox1">
+                        Setiap rangkaian acara dikelola dengan perencanaan dan koordinasi yang matang agar berjalan sesuai jadwal dan minim kendala. Tim kami akan mendampingi setiap tahap pelaksanaan sehingga Anda dan keluarga dapat menikmati momen bahagia tanpa rasa khawatir.
+                    </p>
+                </div>
+                <div class="box1">
+                    <h3>Paket Pernikahan Fleksibel dan Transparan</h3>
+                    <img src="src/services/4.png" class="s-pict">
+                    <p class="tbox1">
+                        Kami menyediakan berbagai pilihan paket pernikahan yang dapat disesuaikan dengan kebutuhan dan anggaran Anda. Dengan rincian biaya yang jelas dan layanan yang fleksibel, kami berkomitmen memberikan pengalaman pernikahan yang nyaman, berkualitas, dan sesuai harapan.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+            &copy Copyrights by Kawal Manten Wedding Organizer
+    </footer>
+    <script>
+        const menuToggle = document.getElementById("menu-toggle");
+        const navMenu = document.getElementById("nav-menu");
+
+        menuToggle.addEventListener("click", function () {
+            navMenu.classList.toggle("active");
+        });
+    </script>
+</body>
+
+</html>
